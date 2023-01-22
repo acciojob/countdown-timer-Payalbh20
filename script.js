@@ -1,4 +1,7 @@
-
+const app = require("./index.js");
+app.listen(5500, () => {
+  console.log('server started');
+});
 var timeLeft = document.querySelector(".display__time-left");
 var endTime = document.querySelector(".display__end-time");
 var input = document.querySelector("input");
